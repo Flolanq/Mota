@@ -25,8 +25,13 @@
                 ));
                 ?> 
             </nav>
-            <!-- D'autres éléments seront a ajoutés ensuite --> 
+            <!-- D'autres éléments seront ajoutés ensuite --> 
         </header>
+            <!-- Ajout de la modale  --> 
+
+        <div class="modale">
+            <?php include(get_stylesheet_directory() . '/template_part/modale.php'); ?>
+        </div>
 
         <main>
         </main>
