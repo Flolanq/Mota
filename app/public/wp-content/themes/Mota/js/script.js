@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const boutonContact = document.querySelector("..."); 
     const modale = document.querySelector("...");
     const boutonFermeture = document.querySelector("..."); 
-    const conteneurModale = document.getElementById("....");
+    const conteneurModale = document.getElementById("...");
 
     boutonContact.addEventListener("click", function() {
         // Gestion de la fermeture de la modale - En cliquant à nouveau sur Contact 
@@ -27,3 +27,4 @@ document.addEventListener("DOMContentLoaded", function () {
         } 
     });
 });
+

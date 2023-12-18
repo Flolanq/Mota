@@ -58,4 +58,31 @@ footer {
 
         /*********** modale de contact ***********/
 
-        
+.modalebutton {
+    font-weight: 900;
+}
+
+.modale {
+    width: 600px;
+    border: 3px solid;
+    /* display: none;*/
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    width: 80%;
+}
+
+form {
+    padding-left: 50px;
+}
+
+input .wpcf7-form-control .wpcf7-submit .has-spinner {
+    background-color: #D8D8D8;
+    
+}
+
