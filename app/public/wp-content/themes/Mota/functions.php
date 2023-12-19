@@ -34,3 +34,11 @@ function custom_single_template($single) {
     return $single;
 }
 add_filter('single_template', 'custom_single_template');
+
+// Ajout d'un logo personnalisable au panel d'administration de
+add_theme_support('custom-logo', array(
+    'height'      => 100,
+    'width'       => 400,
+    'flex-height' => true,
+    'flex-width'  => true,
+));
