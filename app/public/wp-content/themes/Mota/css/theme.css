@@ -58,14 +58,14 @@ footer {
 
         /*********** modale de contact ***********/
 
-.modalebutton {
+.boutonCroix {
     font-weight: 900;
 }
 
 .modale {
-    width: 600px;
-    border: 3px solid;
-    /* display: none;*/
+    display: none;
+    align-items: center;
+    justify-content: center;
 }
 
 .formulaire {
@@ -85,4 +85,104 @@ input .wpcf7-form-control .wpcf7-submit .has-spinner {
     background-color: #D8D8D8;
     
 }
+.modaleContenu {
+    width: 600px;
+    border: 3px solid;
+}
 
+.boutonEnvoyer input {
+    display: block;
+    width: 280px;
+    height: 50px;
+}
+.champsFormu input {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.messageFormu {
+    border-radius: 5px;
+    height: 100px;
+}
+
+
+        /*********** première partie page photo ***********/
+
+.zoneGauche {
+    font-family: 'SpaceMono';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    position: relative;
+    top: 500px;
+
+}
+h2 {
+    font-family: 'SpaceMono';
+    font-size: 66px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.zoneDroite {
+    width: 563px;
+    height: 1000px;
+    top: 118px;
+    left: 731px;
+}
+
+.infoPhoto {
+    display:flex;
+    justify-content: space-around ;
+}
+
+.boutonContact {
+    width: 272px;
+    height: 50px;
+    top: 1000px;
+    left: 438px;
+    padding: 8px, 15px, 8px, 15px;
+    border-radius: 2px;
+    gap: 10px;
+    background-color: #D8D8D8;
+
+}
+
+.bandeauInteraction {
+    display:flex;
+    justify-content: space-around ;
+    border-top: 1px;
+
+}
+.bandeauContenu {
+    font-family: 'SpaceMono';
+    display:flex;
+    justify-content: space-around ;
+}
+
+p {
+    font-family: 'SpaceMono';
+}
+
+.blocFleches {
+    display: flex;
+}
+
+        /*********** dernières partie photos apparentées ***********/
+
+.photosApparentees {
+    display: flex;
+    justify-content: space-around;
+
+}
+.cardPhoto {
+    display: flex;
+    width: 500px;
+    height: 500px;
+}
